@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D9D322D9-AA75-4B68-A4A3-DE80348B9332}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRMMetadata</RootNamespace>
+    <AssemblyName>CRMMetadata</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\coretools\CrmSvcUtil.exe" />
+    <Content Include="bin\coretools\CrmSvcUtil.xml" />
+    <Content Include="bin\coretools\Microsoft.Crm.Sdk.Proxy.dll" />
+    <Content Include="bin\coretools\Microsoft.IdentityModel.Clients.ActiveDirectory.dll" />
+    <Content Include="bin\coretools\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll" />
+    <Content Include="bin\coretools\Microsoft.Xrm.Sdk.Deployment.dll" />
+    <Content Include="bin\coretools\Microsoft.Xrm.Sdk.dll" />
+    <Content Include="bin\coretools\Microsoft.Xrm.Tooling.Connector.dll" />
+    <Content Include="bin\coretools\Microsoft.Xrm.Tooling.CrmConnectControl.dll" />
+    <Content Include="bin\coretools\Microsoft.Xrm.Tooling.Ui.Styles.dll" />
+    <Content Include="bin\coretools\Other Redistributable.txt" />
+    <Content Include="bin\coretools\SolutionPackager.exe" />
+    <Content Include="Metadata\Entities\ccllc_extensionsettings\Entity.xml" />
+    <Content Include="Metadata\Entities\ccllc_extensionsettings\FormXml\card\{9c5d013f-5579-4017-bc35-e883f71513c6}.xml" />
+    <Content Include="Metadata\Entities\ccllc_extensionsettings\FormXml\main\{04b29469-7835-45b1-9712-ddeb74a39bfd}.xml" />
+    <Content Include="Metadata\Entities\ccllc_extensionsettings\FormXml\quick\{6d181be4-087a-4648-a0b9-1e55f667f6c7}.xml" />
+    <Content Include="Metadata\Entities\ccllc_extensionsettings\RibbonDiff.xml" />
+    <Content Include="Metadata\Entities\ccllc_extensionsettings\SavedQueries\{15c54131-c19e-44c3-9113-087bf632ae1d}.xml" />
+    <Content Include="Metadata\Entities\ccllc_extensionsettings\SavedQueries\{199111fc-5a90-4079-8b59-f7d7b204f2e7}.xml" />
+    <Content Include="Metadata\Entities\ccllc_extensionsettings\SavedQueries\{55f79ba9-e201-4bb0-8d1b-c10003768120}.xml" />
+    <Content Include="Metadata\Entities\ccllc_extensionsettings\SavedQueries\{a1be6449-9ab6-4d2e-8108-faf6df324f8b}.xml" />
+    <Content Include="Metadata\Entities\ccllc_extensionsettings\SavedQueries\{c99ac7d7-f91f-4ba9-82f2-0f997c1f36bf}.xml" />
+    <Content Include="Metadata\Entities\ccllc_extensionsettings\SavedQueries\{d831cbe8-566a-e811-a95f-000d3a33eeed}.xml" />
+    <Content Include="Metadata\Entities\ccllc_extensionsettings\SavedQueries\{e686dec0-af33-4a57-81d6-6866fe0e89c9}.xml" />
+    <Content Include="Metadata\Other\Customizations.xml" />
+    <Content Include="Metadata\Other\Relationships.xml" />
+    <Content Include="Metadata\Other\Relationships\BusinessUnit.xml" />
+    <Content Include="Metadata\Other\Relationships\Owner.xml" />
+    <Content Include="Metadata\Other\Relationships\SystemUser.xml" />
+    <Content Include="Metadata\Other\Relationships\Team.xml" />
+    <Content Include="Metadata\Other\Solution.xml" />
+    <Content Include="Metadata\PluginAssemblies\CCLLCExtensionSettings-A8E5B30E-93F0-47BC-B67E-56784F03FA7D\CCLLCExtensionSettings.dll.data.xml" />
+    <Content Include="Metadata\SdkMessageProcessingSteps\{1b5ce67f-526b-e811-a95b-000d3a33e0b1}.xml" />
+    <Content Include="Metadata\SdkMessageProcessingSteps\{708cf666-526b-e811-a95b-000d3a33e0b1}.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\coretools\CrmSvcUtil.exe.config" />
+    <None Include="bin\coretools\LicenseTerms.docx" />
+    <None Include="packages.config" />
+    <None Include="spkl.json" />
+    <None Include="spkl\pack.bat" />
+    <None Include="spkl\pack+import.bat" />
+    <None Include="spkl\unpack.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+    <Folder Include="Solutions\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

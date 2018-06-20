@@ -93,6 +93,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CrmPluginRegistrationAttribute.cs" />
+    <Compile Include="EarlyBoundTypes.cs" />
     <Compile Include="GetExtensionSettingAsIntWFA.cs" />
     <Compile Include="GetExtensionSettingAsStringWFA.cs" />
     <Compile Include="ManageExtensionSettingsEncryption.cs" />
@@ -100,12 +102,56 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="bin\coretools\CrmSvcUtil.exe.config" />
+    <None Include="bin\coretools\LicenseTerms.docx" />
+    <None Include="bin\Debug\CCLLCExtensionSettings.dll.config" />
+    <None Include="bin\Debug\ILMerge\CCLLCExtensionSettings.merge.json" />
+    <None Include="bin\Release\CCLLCExtensionSettings.dll.config" />
+    <None Include="bin\Release\ILMerge\CCLLCExtensionSettings.merge.json" />
     <None Include="CCLLCExtensionSettings.snk" />
     <None Include="ILMergeConfig.json" />
     <None Include="packages.config" />
+    <None Include="spkl.json" />
+    <None Include="spkl\deploy-plugins.bat" />
+    <None Include="spkl\deploy-workflows.bat" />
+    <None Include="spkl\earlybound.bat" />
+    <None Include="spkl\instrument-plugin-code.bat" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Solutions\" />
+    <Content Include="bin\coretools\CrmSvcUtil.exe" />
+    <Content Include="bin\coretools\CrmSvcUtil.xml" />
+    <Content Include="bin\coretools\Microsoft.Crm.Sdk.Proxy.dll" />
+    <Content Include="bin\coretools\Microsoft.IdentityModel.Clients.ActiveDirectory.dll" />
+    <Content Include="bin\coretools\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll" />
+    <Content Include="bin\coretools\Microsoft.Xrm.Sdk.Deployment.dll" />
+    <Content Include="bin\coretools\Microsoft.Xrm.Sdk.dll" />
+    <Content Include="bin\coretools\Microsoft.Xrm.Tooling.Connector.dll" />
+    <Content Include="bin\coretools\Microsoft.Xrm.Tooling.CrmConnectControl.dll" />
+    <Content Include="bin\coretools\Microsoft.Xrm.Tooling.Ui.Styles.dll" />
+    <Content Include="bin\coretools\Other Redistributable.txt" />
+    <Content Include="bin\coretools\SolutionPackager.exe" />
+    <Content Include="bin\Debug\CCLLCExtensionSettings.dll" />
+    <Content Include="bin\Debug\CCLLCExtensionSettings.pdb" />
+    <Content Include="bin\Debug\CCLLCIoCContainer.dll" />
+    <Content Include="bin\Debug\CCLLCIoCContainer.pdb" />
+    <Content Include="bin\Debug\CCLLCTelemetry.dll" />
+    <Content Include="bin\Debug\CCLLCTelemetry.pdb" />
+    <Content Include="bin\Debug\CCLLCXrmSdk.dll" />
+    <Content Include="bin\Debug\CCLLCXrmSdk.pdb" />
+    <Content Include="bin\Debug\CCLLCXrmWorkflow.dll" />
+    <Content Include="bin\Debug\ILMerge\CCLLCExtensionSettings.dll" />
+    <Content Include="bin\Release\CCLLCExtensionSettings.dll" />
+    <Content Include="bin\Release\CCLLCExtensionSettings.pdb" />
+    <Content Include="bin\Release\CCLLCIoCContainer.dll" />
+    <Content Include="bin\Release\CCLLCIoCContainer.pdb" />
+    <Content Include="bin\Release\CCLLCTelemetry.dll" />
+    <Content Include="bin\Release\CCLLCTelemetry.pdb" />
+    <Content Include="bin\Release\CCLLCXrmSdk.dll" />
+    <Content Include="bin\Release\CCLLCXrmSdk.pdb" />
+    <Content Include="bin\Release\CCLLCXrmWorkflow.dll" />
+    <Content Include="bin\Release\ILMerge\CCLLCExtensionSettings.dll" />
+    <Content Include="bin\Release\ILMerge\CCLLCExtensionSettings.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\ILMerge.MSBuild.Task.1.0.3\build\ILMerge.MSBuild.Task.targets" Condition="Exists('..\packages\ILMerge.MSBuild.Task.1.0.3\build\ILMerge.MSBuild.Task.targets')" />

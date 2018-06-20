@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Manage Setting Encryption - Create" SdkMessageProcessingStepId="{708cf666-526b-e811-a95b-000d3a33e0b1}">
+  <PluginTypeName>CCLLCExtensionSettings.ManageExtensionSettingsEncryption, CCLLCExtensionSettings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f271f1297ce79d59</PluginTypeName>
+  <PluginTypeId>acd647a1-72e2-44e3-be68-b6d32683311d</PluginTypeId>
+  <PrimaryEntity>ccllc_extensionsettings</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

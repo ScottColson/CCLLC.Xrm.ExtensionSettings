@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionSettingsPlugin", "ExtensionSettingsPlugin\ExtensionSettingsPlugin.csproj", "{891C565A-57F2-4E05-8595-7711615C1BB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMSolution", "CRMSolution\CRMSolution.csproj", "{D9D322D9-AA75-4B68-A4A3-DE80348B9332}"
+	ProjectSection(ProjectDependencies) = postProject
+		{891C565A-57F2-4E05-8595-7711615C1BB1} = {891C565A-57F2-4E05-8595-7711615C1BB1}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{891C565A-57F2-4E05-8595-7711615C1BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{891C565A-57F2-4E05-8595-7711615C1BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{891C565A-57F2-4E05-8595-7711615C1BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D322D9-AA75-4B68-A4A3-DE80348B9332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D322D9-AA75-4B68-A4A3-DE80348B9332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D322D9-AA75-4B68-A4A3-DE80348B9332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D322D9-AA75-4B68-A4A3-DE80348B9332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

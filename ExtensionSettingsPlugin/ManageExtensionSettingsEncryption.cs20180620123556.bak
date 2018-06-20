@@ -5,21 +5,6 @@ using CCLLC.Xrm.Sdk.Utilities;
 
 namespace CCLLCExtensionSettings
 {
-    [CrmPluginRegistration("Create", 
-    "ccllc_extensionsettings", StageEnum.PreOperation, ExecutionModeEnum.Synchronous,
-    "","Manage Extension Setting Encryption on Create", 1, 
-    IsolationModeEnum.Sandbox 
-    ,Id = "708cf666-526b-e811-a95b-000d3a33e0b1" 
-    )]
-    [CrmPluginRegistration("Update", 
-    "ccllc_extensionsettings", StageEnum.PreOperation, ExecutionModeEnum.Synchronous,
-    "ccllc_encryptedflag,ccllc_value","Manage Extension Setting Encryption on Update", 1, 
-    IsolationModeEnum.Sandbox 
-    ,Image1Type = ImageTypeEnum.PreImage
-    ,Image1Name = "PreImage"
-    ,Image1Attributes = "ccllc_encryptedflag,ccllc_value"
-    ,Id = "1b5ce67f-526b-e811-a95b-000d3a33e0b1" 
-    )]
     public class ManageExtensionSettingsEncryption : PluginBase  //not using instrumentation.
     {
         /// <summary>

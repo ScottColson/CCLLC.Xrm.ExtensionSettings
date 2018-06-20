@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="business_unit_ccllc_extensionsettings" />
+  <EntityRelationship Name="lk_ccllc_extensionsettings_createdby" />
+  <EntityRelationship Name="lk_ccllc_extensionsettings_modifiedby" />
+  <EntityRelationship Name="owner_ccllc_extensionsettings" />
+  <EntityRelationship Name="team_ccllc_extensionsettings" />
+  <EntityRelationship Name="user_ccllc_extensionsettings" />
+</EntityRelationships>

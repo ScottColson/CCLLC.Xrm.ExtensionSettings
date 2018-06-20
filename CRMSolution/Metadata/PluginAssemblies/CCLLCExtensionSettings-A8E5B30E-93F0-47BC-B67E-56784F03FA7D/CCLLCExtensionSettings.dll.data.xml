@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="CCLLCExtensionSettings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f271f1297ce79d59" PluginAssemblyId="a8e5b30e-93f0-47bc-b67e-56784f03fa7d" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CCLLCExtensionSettings-A8E5B30E-93F0-47BC-B67E-56784F03FA7D/CCLLCExtensionSettings.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="CCLLCExtensionSettings.GetExtensionSettingAsIntWFA, CCLLCExtensionSettings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f271f1297ce79d59" PluginTypeId="7f71c234-8dc3-4a91-952e-d263c54403e2" Name="GetExtensionSettingAsInt">
+      <FriendlyName>GetExtensionSettingAsInt</FriendlyName>
+      <WorkflowActivityGroupName>CCLLC.ExtensionSettings</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCLLCExtensionSettings.GetExtensionSettingAsStringWFA, CCLLCExtensionSettings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f271f1297ce79d59" PluginTypeId="66478210-9a70-4229-9d5a-fd6ae844a62e" Name="GetExtensionSettingAsString">
+      <FriendlyName>GetExtensionSettingAsString</FriendlyName>
+      <WorkflowActivityGroupName>CCLLC.ExtensionSettings</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCLLCExtensionSettings.ManageExtensionSettingsEncryption, CCLLCExtensionSettings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f271f1297ce79d59" PluginTypeId="acd647a1-72e2-44e3-be68-b6d32683311d" Name="CCLLCExtensionSettings.ManageExtensionSettingsEncryption">
+      <FriendlyName>ea5f32c3-a6fb-4f74-9836-e7c7fcca6c3a</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

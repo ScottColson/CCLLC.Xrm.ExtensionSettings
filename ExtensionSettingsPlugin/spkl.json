@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    {
+      "profile": "default,debug",
+      "assemblypath": "bin\\Debug\\ILMerge"
+    },
+    {
+      "profile": "release",
+      "assemblypath": "bin\\Release\\ILMerge"
+    }
+  ],
+  "earlyboundtypes": [
+    {
+      "entities": "ccllc_extensionsettings",
+      "actions": "",
+      "generateOptionsetEnums": true,
+      "generateGlobalOptionsets": false,
+      "generateStateEnums": true,
+      "filename": "EarlyBoundTypes.cs",
+      "classNamespace": "CCLLCExtensionSettings",
+      "oneTypePerFile": false
+    }
+  ]
+}
